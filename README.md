@@ -6,16 +6,38 @@
 
 ### Features:
 
-- Interactive Flash Cards: Learn French (or any other language) by testing your knowledge with flash cards.
-- Track Your Progress: Mark words as known, and the app will save which words need more practice.
-- Sleek UI with Tkinter: User-friendly design with smooth transitions between cards.
-- Automatic Progress Saving: Your progress is saved automatically in CSV format, so you can continue where you left off.
+- Add New Book: Add new books to the collection with their title, author, and rating.
+- Edit Book Rating: Update the rating for a specific book in the collection.
+- Delete Book: Remove a book from the collection.
+- Simple SQLite Database: All book data is stored in an SQLite database.
+- Interactive Web Interface: A simple and user-friendly web interface to interact with the app.
 
 ---
 
+### Technologies Used:
+- Flask: A micro web framework for Python.
+- SQLAlchemy: An ORM for handling database operations.
+- SQLite: A lightweight database used for storing book information.
+- HTML: Simple web pages for user interaction.
+
+---
+
+### Routes:
+
+- `/`: Displays the list of all books in the collection.
+- `/add`: Adds a new book to the collection.
+- `/edit`: Edits the rating of a specific book.
+- `/delete`: Deletes a specific book from the collection.
+
 ### Screenshots:
 
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/44efaf46-a48f-41ed-9830-7187beffdd70" />
+<p></p>
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/9a34d4ff-5eac-4be9-b9bd-f721e3c40ae6" />
+<p></p>
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/3dfff7bd-22d6-4494-a735-4573ae1e90e4" />
+<p></p>
+<img width="409" alt="image" src="https://github.com/user-attachments/assets/d1dc2838-99c2-46de-aa9f-790b000a8eb0" />
 
-<img width="891" alt="Screenshot 2024-11-30 221632" src="https://github.com/user-attachments/assets/498be504-df8b-42cb-9ba5-230a77cedc21">
-<img width="373" alt="french words" src="https://github.com/user-attachments/assets/2fbe3007-97f5-4181-ab91-be0498c94de1">
-<img width="361" alt="words to learn" src="https://github.com/user-attachments/assets/d0ac5807-56dd-4e55-b270-e70bb88b9e12">
+
+
