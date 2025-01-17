@@ -1,3 +1,14 @@
+"""
+********************************************************************************
+* Project Name:  Book Collection App with Database
+* Description:   Book Collection App is a simple web application built with Flask and SQLAlchemy that allows users to manage a collection of books. It supports adding, editing, and deleting books, as well as updating ratings. All data is stored in an SQLite database, providing an easy-to-use system for tracking your books.
+* Author:        ziqkimi308
+* Created:       2025-01-17
+* Updated:       2025-01-17
+* Version:       1.0
+********************************************************************************
+"""
+
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 
